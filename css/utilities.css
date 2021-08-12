@@ -1,0 +1,115 @@
+/* utilities */
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 13px 26px;
+  margin-right: 10px;
+  border-radius: 35px;
+  border: none;
+  background-color: var(--clr-primary);
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: all 0.3s;
+  font-weight: 700;
+  color: inherit;
+}
+.gap {
+  padding: 70px 0;
+}
+.btn-primary {
+  color: var(--clr-primary);
+  border: 2px solid var(--clr-primary-text);
+  background-color: var(--clr-primary-text);
+  font-weight: 700;
+}
+
+.btn-outline {
+  border: 2px solid var(--clr-primary-text);
+}
+.btn-outline:hover {
+  color: var(--clr-primary);
+  background-color: var(--clr-primary-text);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-title h2 {
+  color: var(--clr-alt-text);
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.section-title h3 {
+  color: var(--clr-primary-text);
+  margin-bottom: 45px;
+  font-size: 26px;
+  line-height: 1.4;
+}
+
+.section-title {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.c1 .icon-wrap {
+  color: var(--clr-c1);
+  background-color: var(--clr-c1-light);
+}
+.c1 .link {
+  color: var(--clr-c1);
+}
+.c2 .link {
+  color: var(--clr-c2);
+}
+.c3 .link {
+  color: var(--clr-c3);
+}
+.c2 .icon-wrap {
+  color: var(--clr-c2);
+  background-color: var(--clr-c2-light);
+}
+.c3 .icon-wrap {
+  color: var(--clr-c3);
+  background-color: var(--clr-c3-light);
+}
+.icon-wrap {
+  background-color: var(--clr-c1-light);
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: var(--clr-c1);
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--clr-primary-text);
+  margin-bottom: 10px;
+}
+.card-text {
+  color: var(--clr-text);
+  font-style: 16px;
+}
+.link {
+  color: var(--clr-c1);
+  font-size: 16px;
+  font-weight: 700;
+}
+.link i {
+  display: inline-block;
+  margin-left: 5px;
+}
